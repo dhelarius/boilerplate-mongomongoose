@@ -12,5 +12,5 @@ En primer lugar, necesitamos un esquema. Cada esquema se asigna a una colección
 **Solución:** https://github.com/dhelarius/boilerplate-mongomongoose/tree/2-create-a-model
 
 ### [Crear y guardar un registro de un modelo](https://www.freecodecamp.org/learn/back-end-development-and-apis/mongodb-and-mongoose/create-and-save-a-record-of-a-model)
-En este desafío tendrás que crear y guardar un registro de un modelo.
+En este desafío tendrás que crear y guardar un registro de un modelo.  
 **Solución:** https://github.com/dhelarius/boilerplate-mongomongoose/tree/3-create-and-save-a-record
