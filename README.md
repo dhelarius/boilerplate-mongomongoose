@@ -14,3 +14,7 @@ En primer lugar, necesitamos un esquema. Cada esquema se asigna a una colección
 ### [Crear y guardar un registro de un modelo](https://www.freecodecamp.org/learn/back-end-development-and-apis/mongodb-and-mongoose/create-and-save-a-record-of-a-model)
 En este desafío tendrás que crear y guardar un registro de un modelo.  
 **Solución:** https://github.com/dhelarius/boilerplate-mongomongoose/tree/3-create-and-save-a-record
+
+### [Crear varios registros con model.create()](https://www.freecodecamp.org/learn/back-end-development-and-apis/mongodb-and-mongoose/create-many-records-with-model-create)
+Modifique la función `createManyPeople` para crear muchas personas usando `Model.create()` con el argumento `arrayOfPeople`.  
+**Solución:** https://github.com/dhelarius/boilerplate-mongomongoose/tree/4-create-many-records
