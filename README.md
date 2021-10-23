@@ -18,3 +18,7 @@ En este desafío tendrás que crear y guardar un registro de un modelo.
 ### [Crear varios registros con model.create()](https://www.freecodecamp.org/learn/back-end-development-and-apis/mongodb-and-mongoose/create-many-records-with-model-create)
 Modifique la función `createManyPeople` para crear muchas personas usando `Model.create()` con el argumento `arrayOfPeople`.  
 **Solución:** https://github.com/dhelarius/boilerplate-mongomongoose/tree/4-create-many-records
+
+### [Utilice model.find() para buscar en su base de datosAprobado](https://www.freecodecamp.org/learn/back-end-development-and-apis/mongodb-and-mongoose/use-model-find-to-search-your-database)
+En su uso más simple, `Model.find()` acepta un documento de consulta (un objeto JSON) como primer argumento y luego una devolución de llamada.  
+**Solución:** https://github.com/dhelarius/boilerplate-mongomongoose/tree/5-use-model-find
