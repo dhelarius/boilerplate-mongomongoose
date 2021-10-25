@@ -24,5 +24,5 @@ En su uso más simple, `Model.find()` acepta un documento de consulta (un objeto
 **Solución:** https://github.com/dhelarius/boilerplate-mongomongoose/tree/5-use-model-find
 
 ### [Utilice model.findOne() para devolver un único documento coincidente de su base de datos](https://www.freecodecamp.org/learn/back-end-development-and-apis/mongodb-and-mongoose/use-model-findone-to-return-a-single-matching-document-from-your-database)
-Model.findOne() behaves like Model.find(), but it returns only one document (not an array), even if there are multiple items. It is especially useful when searching by properties that you have declared as unique.
+`Model.findOne()` behaves like `Model.find()`, but it returns only one document (not an array), even if there are multiple items. It is especially useful when searching by properties that you have declared as unique.  
 **Solución:** https://github.com/dhelarius/boilerplate-mongomongoose/tree/6-use-model-find-one
