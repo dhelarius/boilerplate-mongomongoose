@@ -50,8 +50,13 @@ const findPeopleByName = (personName, done) => {
   });
 };
 
+//* 6- Buscar un documento basado en la comida dada con Model.findOne() */
+//* Util para buscar elementos en base a propiedades especificadas como únicas */
 const findOneByFood = (food, done) => {
-  done(null /*, data*/);
+  Person.findOne({ favoriteFoods: food }, (err, foodFound) => {
+    if (err) return console.error(err);
+    done(null, foodFound);
+  })
 };
 
 const findPersonById = (personId, done) => {
