@@ -4,8 +4,10 @@ const { Schema } = require('mongoose');
 
 const MONGO_URI = process.env.MONGO_URI;
 
+//* 1- Establecer conexión con MongoDB Atlas */
 mongoose.connect(MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
 
+//* 2- Crear esquema y modelo */
 const personSchema = new Schema({
   name: { type: String, required: true },
   age: Number,
@@ -14,6 +16,7 @@ const personSchema = new Schema({
 
 let Person = mongoose.model('Person', personSchema);
 
+//* 3- Crear un objeto persona a partir del modelo y guardarlo en la base de datos */
 const createAndSavePerson = (done) => {
   const person = new Person({
     name: 'Darío Jiménez',
@@ -27,6 +30,7 @@ const createAndSavePerson = (done) => {
   })
 };
 
+//* 4- Crear una lista de personas y guardarla en la base de datos */
 const arrayOfPeople = [{ name: 'Jose Arias', age: 26, favoriteFoods: ['Pescado','Frutas','Vegetales'] },
 { name: 'María Contreras', age: 22, favoriteFoods: ['Leche','Frutas'] },
 { name: 'Jorge Cruz', age: 32, favoriteFoods: ['Pollo frito','Jugo de naranja','Embutidos'] }]
