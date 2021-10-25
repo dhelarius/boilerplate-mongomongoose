@@ -19,6 +19,10 @@ En este desafío tendrás que crear y guardar un registro de un modelo.
 Modifique la función `createManyPeople` para crear muchas personas usando `Model.create()` con el argumento `arrayOfPeople`.  
 **Solución:** https://github.com/dhelarius/boilerplate-mongomongoose/tree/4-create-many-records
 
-### [Utilice model.find() para buscar en su base de datosAprobado](https://www.freecodecamp.org/learn/back-end-development-and-apis/mongodb-and-mongoose/use-model-find-to-search-your-database)
+### [Utilice model.find() para buscar en su base de datos](https://www.freecodecamp.org/learn/back-end-development-and-apis/mongodb-and-mongoose/use-model-find-to-search-your-database)
 En su uso más simple, `Model.find()` acepta un documento de consulta (un objeto JSON) como primer argumento y luego una devolución de llamada.  
 **Solución:** https://github.com/dhelarius/boilerplate-mongomongoose/tree/5-use-model-find
+
+### [Utilice model.findOne() para devolver un único documento coincidente de su base de datos](https://www.freecodecamp.org/learn/back-end-development-and-apis/mongodb-and-mongoose/use-model-findone-to-return-a-single-matching-document-from-your-database)
+Model.findOne() behaves like Model.find(), but it returns only one document (not an array), even if there are multiple items. It is especially useful when searching by properties that you have declared as unique.
+**Solución:** https://github.com/dhelarius/boilerplate-mongomongoose/tree/6-use-model-find-one
