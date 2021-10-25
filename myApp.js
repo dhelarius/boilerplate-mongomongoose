@@ -4,8 +4,10 @@ const { Schema } = require('mongoose');
 
 const MONGO_URI = process.env.MONGO_URI;
 
+//* 1- Establecer conexión con MongoDB Atlas */
 mongoose.connect(MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
 
+//* 2- Crear esquema y modelo */
 const personSchema = new Schema({
   name: { type: String, required: true },
   age: Number,
